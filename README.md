@@ -1,6 +1,6 @@
 # WLAN Controlled Heater Switch Thermostat for Tasmota switch
 
-Thi is ESP8266 based WLAN Controlled Heater Switch Thermostat (for Tasmota switch).
+Thi is ESP8266 based WLAN Controlled Heater Switch Thermostat (for a Tasmota switch).
 
 - Uses Wemos D1 mini (ESP12) to measure temperature with DS18B20 sensor
 - Controls temperature by sending On/Off commands to Tasmota switch
