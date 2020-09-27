@@ -9,7 +9,7 @@ This is an ESP8266 based WLAN Controlled Heater Thermostat for a Tasmota switch.
 - Can act as WLAN Client or AP (set the AP constant accordingly).
 - Stores status (Auto) and temperature level in EEPROM and reloads after boot.
 
-In addition to the Wemos D1 mini you need a Tasmota compatible switch to switch the heater on and off. See Tasmota (https://tasmota.github.io/docs/) pages to see supported devices (e.g. Sonoff devices with Tasmota firmware).
+In addition to the Wemos D1 mini you need a Tasmota compatible switch to switch the heater on and off. See Tasmota (https://tasmota.github.io/docs/) pages for supported devices (e.g. Sonoff devices with Tasmota firmware).
 
 Here I use the OBI2 WLAN switch from a local DIY store.  The WLAN settings and the Tasmota address have to be changed in the code. On the Tasmota device you have to configure the corresponding WLAN settings.
 
