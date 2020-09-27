@@ -8,3 +8,11 @@ Thi is ESP8266 based WLAN Controlled Heater Switch Thermostat (for a Tasmota swi
 - Connect to 3,3 V, GND and D2. Internal ESP pullup resistor is used!
 - Can act as WLAN Client or AP
 - Stores status (Auto) and temperature level in EEPROM and reloads after boot
+
+![Display1]( )
+
+![Display1]( )
+
+![Display1]( )
+
+![Display1]( )
