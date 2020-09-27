@@ -1,6 +1,6 @@
 # WLAN Controlled Heater Thermostat for Tasmota Switch
 
-This is an ESP8266 based WLAN controlled ceater chermostat for a Tasmota switch.
+This is an ESP8266 based WLAN controlled heater thermostat for a Tasmota switch.
 
 - Uses Wemos D1 mini (ESP12) to measure temperature with DS1820 sensor.
 - Controls temperature by sending On/Off commands to Tasmota switch.
