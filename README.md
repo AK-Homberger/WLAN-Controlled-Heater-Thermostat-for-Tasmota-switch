@@ -20,6 +20,8 @@ const char *TasmotaIP = "192.168.4.20";    // Defines address of Tasmota switch
 const char *ssid      = "MyHeaterControl"; // Set WLAN name
 const char *password  = "password";        // Set password
 ```
+The OneWire an the DallasTemperature libraries have to be installed with the library manager.
+
 
 Here I use the OBI2 WLAN switch from a local DIY store.  The WLAN settings and the Tasmota address have to be changed in the code. On the Tasmota device you have to configure the corresponding WLAN settings.
 
