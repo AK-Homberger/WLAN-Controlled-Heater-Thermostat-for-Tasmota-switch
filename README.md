@@ -9,10 +9,7 @@ Thi is ESP8266 based WLAN Controlled Heater Switch Thermostat (for a Tasmota swi
 - Can act as WLAN Client or AP
 - Stores status (Auto) and temperature level in EEPROM and reloads after boot
 
-![Display1]( )
+![Display1](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Screen.png)
 
-![Display1]( )
+![Display1](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Wemos%20D1%20Mini-1.jpg)
 
-![Display1]( )
-
-![Display1]( )
