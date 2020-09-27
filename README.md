@@ -1,4 +1,4 @@
-# WLAN Controlled Heater Switch Thermostat for Tasmota switch
+# WLAN Controlled Heater Thermostat for Tasmota Switch
 
 Thi is ESP8266 based WLAN Controlled Heater Switch Thermostat (for a Tasmota switch).
 
