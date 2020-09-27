@@ -25,18 +25,22 @@ The OneWire and the DallasTemperature libraries have to be installed with the li
 
 As Tasmota switch I use the OBI2 WLAN switch from a local DIY store.  The WLAN settings and the Tasmota address have to be changed in the code. On the Tasmota device you have to configure the corresponding WLAN settings.
 
-This is the web page to control the thermostat settings.
-
-You can set the thermostat temperatur an the state (Auto, On, Off).
+This is the web page to control the thermostat settings:
 
 ![Display1](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Screen.png)
 
+You can set the thermostat temperatur an the state (Auto, On, Off).
+
+
 The Wemos D1 mini plus the DS1820 sensor.
+
 ![Display2](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Wemos%20D1%20Mini-1.jpg)
 
 The OBI2 device is placed directly in the heater connected with WAGO connectors.
+
 ![Display3](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/TasmotaObi2-1.jpg)
 
 This is the heater itself.
+
 ![Display4](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Heater-1.jpg)
 
