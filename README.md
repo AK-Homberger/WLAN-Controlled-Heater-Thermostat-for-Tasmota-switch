@@ -23,7 +23,7 @@ const char *password  = "password";        // Set password
 The OneWire and the DallasTemperature libraries have to be installed with the library manager.
 
 
-As Tasmota switch I use the OBI2 WLAN switch from a local DIY store.  The WLAN settings and the Tasmota address have to be changed in the code. On the Tasmota device you have to configure the corresponding WLAN settings.
+As Tasmota switch I use the OBI2 WLAN switch from a local DIY store (https://tasmota.github.io/docs/devices/OBI-Socket-2/).  The WLAN settings and the Tasmota address have to be changed in the code. On the Tasmota device you have to configure the corresponding WLAN settings.
 
 This is the web page to control the thermostat settings:
 
