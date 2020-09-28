@@ -5,7 +5,7 @@ This is an ESP8266 based WLAN controlled heater thermostat for a Tasmota switch.
 - Uses Wemos D1 mini (ESP12) to measure temperature with DS1820 sensor.
 - Controls temperature by sending On/Off commands to Tasmota switch.
 - The DS1820 sensor is the only external element necessary.
-- Connect to 3,3 V to VDD, GND to GND and D2 to DQ. Internal ESP pullup resistor is used: ![DS1820](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/DS1820.png)
+- Connect to 3,3 V to VDD, GND to GND and D2 to DQ. The internal ESP pullup resistor is used. ![DS1820](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/DS1820.png)
 - Can act as WLAN Client or AP (set the AP constant accordingly).
 - Stores status (Auto) and temperature level in EEPROM and reloads after boot.
 
