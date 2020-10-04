@@ -20,7 +20,7 @@
 //   - Can act as WLAN Client or AP
 //   - Stores status (Auto) and temperature level in EEPROM and reloads after boot
 
-// Version 1.0, 27.09.2020, AK-Homberger
+// Version 1.1, 04.10.2020, AK-Homberger
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -186,10 +186,10 @@ void Event_Temperature() {               // Send temperature, level and status a
   if (Error) State = "Tasmota Error";
 
   snprintf(buf, sizeof(buf), "%2.2f", Temp);
-  root["temp"] = buf;
+  root["temp"] = Temp;
 
   snprintf(buf, sizeof(buf), "%2.2f", TempLevel);
-  root["level"] = buf;
+  root["level"] = TempLevel;
 
   root["status"] = State;
     

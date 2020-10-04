@@ -43,7 +43,7 @@ table {
 .slider {
   -webkit-appearance: none;
   width: 90%;
-  height: 25px;
+  height: 24px;
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
@@ -58,15 +58,15 @@ table {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   background: #4CAF50;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   background: #4CAF50;
   cursor: pointer;
 }
@@ -82,7 +82,7 @@ table {
 <br>
 </head>
 
-<body BGCOLOR="#819FF7">
+<body style="font-family: verdana,sans-serif" BGCOLOR="#819FF7">
   <table>
     <tr><td style="text-align:right;">Temperature:</td><td> <span id='temp'></span> °C</td><tr>
     <tr><td style="text-align:right;">Level:</td><td> <span id='level'></span> °C</td><tr>
@@ -120,15 +120,17 @@ table {
     var output = document.getElementById("level");
         
     slider.oninput = function() {
-      output.innerHTML = this.value;
+      var level;
+      level = 1 * this.value;
+      output.innerHTML = level.toFixed(2);
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'slider' + "?level=" + this.value);
+      xhr.open('GET', 'slider' + "?level=" + this.value, true);
       xhr.send();
     }
 
     function button_clicked(key) { 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', key);
+      xhr.open('GET', key, true);
       xhr.send();
       requestData();
     }
@@ -139,25 +141,24 @@ table {
     function requestData() {
 
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'temp');
+      
+      xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
 
-      xhr.onload = function() {
-        if (xhr.status === 200) {
+          if (this.responseText) { // if the returned data is not null, update the values
 
-          if (xhr.responseText) { // if the returned data is not null, update the values
+            var data = JSON.parse(this.responseText);
 
-            var data = JSON.parse(xhr.responseText);
-
-            document.getElementById("temp").innerText = data.temp;
+            document.getElementById("temp").innerText = data.temp.toFixed(2);
             document.getElementById("status").innerText = data.status;
             
-            output.innerHTML = data.level;
+            output.innerHTML = data.level.toFixed(2);
             slider.value = data.level;
        
           } 
         } 
       }
-      
+      xhr.open('GET', 'temp', true);
       xhr.send();
     }
      
