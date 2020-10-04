@@ -174,7 +174,6 @@ void Event_Slider() {                   // Handle slider event
 
 void Event_Temperature() {               // Send temperature, level and status as JSON string
   String Text, State;
-  char buf[20];
 
   StaticJsonDocument<100> root;
 
@@ -185,17 +184,14 @@ void Event_Temperature() {               // Send temperature, level and status a
 
   if (Error) State = "Tasmota Error";
 
-  snprintf(buf, sizeof(buf), "%2.2f", Temp);
   root["temp"] = Temp;
-
-  snprintf(buf, sizeof(buf), "%2.2f", TempLevel);
   root["level"] = TempLevel;
-
   root["status"] = State;
     
   serializeJsonPretty(root, Text);
   server.send(200, "text/plain", Text); //Send sensors values to client ajax request
 }
+
 
 void handleNotFound() {                                           // Unknown request. Send error 404
   server.send(404, "text/plain", "File Not Found\n\n");
