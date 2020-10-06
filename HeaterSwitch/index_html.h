@@ -9,7 +9,7 @@ const char MAIN_page[] PROGMEM = R"=====(
 <style>
 
 h1 {
-  font-size: 2.0em;
+  font-size: 1.5em;
   text-align: center; 
   vertical-align: middle; 
   max-width: 400px; 
@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-  font-size: 2.0em;
+  font-size: 1.5em;
   text-align: center; 
   vertical-align: middle; 
   max-width: 400px; 
@@ -25,7 +25,7 @@ p {
 }
 
 table {
-  font-size: 2.0em;
+  font-size: 1.5em;
   text-align: left; 
   vertical-align: middle; 
   margin:0 auto;
@@ -75,7 +75,6 @@ table {
 
 
 <title>Thrmostat</title>
-<br>
 <hr>
 <h1>Thermostat</h1>
 <hr>
