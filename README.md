@@ -35,7 +35,7 @@ The Wemos D1 mini plus the DS1820 sensor:
 
 ![Display2](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Wemos%20D1%20Mini-1.jpg)
 
-Here the OBI2 device is placed directly in the heater connected with WAGO connectors. But of course you can also use the standard socket instaed or any other Tasmota switch/socket.
+Here the OBI2 device is placed directly in the heater connected with WAGO connectors. But of course you can also use the standard socket instead or any other Tasmota switch/socket.
 
 ![Display3](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/TasmotaObi2-1.jpg)
 
