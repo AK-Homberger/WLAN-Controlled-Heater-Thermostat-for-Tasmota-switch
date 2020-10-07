@@ -79,7 +79,7 @@ void setup(void) {
   sensors.begin();
 
   EEPROM.begin(16);                         // Initialise non volatile storage (16 byte is minimum)
-  TempLevel = EEPROM.read(0) / 2.0;         // Read temp level from NVS (0.5 °C resulution)
+  TempLevel = EEPROM.read(0) / 2.0;         // Read temp level from NVS (0.5 °C resolution)
   Auto = EEPROM.read(1);                    // Read state from NVS
 
   // Initialise wifi connection
@@ -301,7 +301,7 @@ void loop(void) {
 
   server.handleClient();        // Handle web server events
 
-  if (millis() > t + 2000) {    // Every two seconds store changes values and read temperature
+  if (millis() > t + 2000) {    // Every two seconds store changed values and read temperature
     t = millis();
 
     if (update) {               // Store values if changed
