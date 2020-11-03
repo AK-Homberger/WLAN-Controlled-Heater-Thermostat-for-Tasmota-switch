@@ -44,8 +44,8 @@ This is the heater itself:
 ![Display4](https://github.com/AK-Homberger/WLAN-Controlled-Heater-Thermostat-for-Tasmota-switch/blob/master/Heater-1.jpg)
 
 # Partlist
-- DS1820 [Link](https://www.amazon.de/AZDelivery-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-DS18B20-digitaler-Temperatursensor/dp/B01LZCZOJJ/ref=sr_1_3?adgrpid=72630429073&dchild=1&gclid=EAIaIQobChMIzYnyqouO7AIVBfhRCh0rXAqBEAAYAiAAEgIuVfD_BwE&hvadid=353030382657&hvdev=c&hvlocphy=9043858&hvnetw=g&hvqmt=e&hvrand=2376973298400010304&hvtargid=kwd-301195599018&hydadcr=29223_1661108&keywords=ds1820&qid=1601373046&sr=8-3&tag=googhydr08-21&th=1)
-- D1 Mini [Link](https://www.amazon.de/AZDelivery-D1-Mini-Entwicklungsboard-kompatibel/dp/B0754N794H/ref=sxts_sxwds-bia-wc-drs1_0?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&cv_ct_cx=wemos+d1+mini&dchild=1&keywords=wemos+d1+mini&pd_rd_i=B0754N794H&pd_rd_r=ed6a8344-b232-431a-9440-fdb14ec37770&pd_rd_w=peIEj&pd_rd_wg=UK5OL&pf_rd_p=578deb70-f9b7-4aa5-9f96-98765f2717c8&pf_rd_r=QV1RZ15XME8GEACPYMCS&psc=1&qid=1601373135&sr=1-1-5a42e879-3844-4142-9c14-e77fe027c877)
+- DS1820 [Link](https://www.reichelt.de/de/en/digital-thermometer-1-wire--0-5-c-to-92-ds-18b20-p58169.html?&nbc=1)
+- D1 Mini [Link](https://www.reichelt.de/de/en/d1-mini-esp8266-v3-0-d1-mini-p253978.html?&nbc=1)
 - Socket switch [Link](https://templates.blakadder.com/delock_11826.html)
 - Heater [Link](https://www.bauhaus.info/heizluefter/voltomat-heating-infrarot-heizstrahler/p/21324817)
 
