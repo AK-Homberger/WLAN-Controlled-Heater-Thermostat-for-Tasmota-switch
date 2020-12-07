@@ -15,7 +15,7 @@ For configuration you can change the following settings in the code:
 
 ```cpp
 #define AP 1             // Set to 1 to act as Access Point, 0 as client 
-#define Correction -7    // Defines corection value for temperature sensor
+#define Correction -7    // Defines correction value for temperature sensor
 const char *TasmotaIP = "192.168.4.20";    // Defines address of Tasmota switch
 const char *ssid      = "MyHeaterControl"; // Set WLAN name
 const char *password  = "password";        // Set password
